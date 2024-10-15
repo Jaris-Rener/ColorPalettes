@@ -36,22 +36,12 @@
             var root = new VisualElement();
             root.styleSheets.Add(_styleSheet);
 
-#if UNITY_6000_0_OR_NEWER
-            var tabbedView = new TabbedView();
-#else
             var tabbedView = new TabView();
-#endif
 
             // Palettes Tab
-#if UNITY_6000_0_OR_NEWER
-            _palettesRoot = new VisualElement();
-            var palettesTab = new TabButton("Palettes", _palettesRoot);
-            tabbedView.AddTab(palettesTab, true);
-#else
             var palettesTab = new Tab("Palettes");
             _palettesRoot = palettesTab.contentContainer;
             tabbedView.Add(palettesTab);
-#endif
 
             SetupPalettesTab();
 
@@ -61,15 +51,9 @@
             BindPalette(_curPalette);
 
             // Colors Tab
-#if UNITY_6000_0_OR_NEWER
-            _colorsRoot = new VisualElement();
-            var colorsTab = new TabButton("Colors", _colorsRoot);
-            tabbedView.AddTab(colorsTab, false);
-#else
             var colorsTab = new Tab("Colors");
             _colorsRoot = colorsTab.contentContainer;
             tabbedView.Add(colorsTab);
-#endif
 
             SetupColorsTab();
 
