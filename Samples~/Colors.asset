@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3435161458440983406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff87e127cd304fb5bf3dbed5c681806c, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  Base: {fileID: 11400000}
+  Colors:
+    Entries:
+    - Key: Main Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Secondary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tertiary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 2
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Subheading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Body 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Accent 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90957f36ea504bd99f0ed2db8795df77, type: 3}
+  m_Name: Colors
+  m_EditorClassIdentifier: 
+  _activeIndex: 3
+  Palettes:
+  - {fileID: -3435161458440983406}
+  - {fileID: 4407183083788870682}
+  - {fileID: 4539175080203538775}
+  - {fileID: 8031941178716292779}
+  ColorNames:
+  - Main Color
+  - Secondary Color
+  - Tertiary Color
+  - Heading 1
+  - Heading 2
+  - Subheading 1
+  - Body 1
+  - Accent 1
+--- !u!114 &4407183083788870682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff87e127cd304fb5bf3dbed5c681806c, type: 3}
+  m_Name: Red
+  m_EditorClassIdentifier: 
+  Base: {fileID: 11400000}
+  Colors:
+    Entries:
+    - Key: Main Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Secondary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tertiary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 2
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Subheading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Body 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Accent 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &4539175080203538775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff87e127cd304fb5bf3dbed5c681806c, type: 3}
+  m_Name: Light
+  m_EditorClassIdentifier: 
+  Base: {fileID: 11400000}
+  Colors:
+    Entries:
+    - Key: Main Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Secondary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tertiary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 2
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Subheading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Body 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Accent 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &8031941178716292779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff87e127cd304fb5bf3dbed5c681806c, type: 3}
+  m_Name: Dark
+  m_EditorClassIdentifier: 
+  Base: {fileID: 11400000}
+  Colors:
+    Entries:
+    - Key: Main Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Secondary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tertiary Color
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Heading 2
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Subheading 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Body 1
+      Value: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Accent 1
+      Value: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,18 @@
+{
+    "name": "Howl.ColorPalettes.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:808d7b965d00bd544a1997a2931348b3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

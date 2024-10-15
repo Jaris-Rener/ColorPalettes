@@ -1,0 +1,36 @@
+.button {
+    width: 128;
+}
+
+.button-primary {
+    flex-grow: 1;
+    margin-right: 0;
+}
+
+.separator {
+    background-color: var(--unity-colors-button-background);
+    height: 1;
+    flex-grow: 1;
+    margin: 8 4 8 4;
+}
+
+.swatch {
+    width: 64;
+    margin: 1 0 1 2;
+    border-radius: 4;
+    border-width: 2;
+    flex-shrink: 0;
+    background-color: lime;
+    border-color: var(--unity-colors-button-border);
+}
+
+.button-danger {
+    background-color: #ea5151;
+    color: #2e1b1b;
+    margin-left: 1;
+    width: 128;
+}
+
+.dropdown {
+    flex-grow: 1;
+}
