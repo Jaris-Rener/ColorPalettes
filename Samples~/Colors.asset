@@ -16,21 +16,21 @@ MonoBehaviour:
   Colors:
     Entries:
     - Key: Main Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.23564091, g: 0.5283019, b: 0.20683517, a: 1}
     - Key: Secondary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.22107512, g: 0.6792453, b: 0.24863696, a: 1}
     - Key: Tertiary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.1576411, g: 0.3962264, b: 0.11027056, a: 1}
     - Key: Heading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.7308191, g: 0.8490566, b: 0.6688323, a: 1}
     - Key: Heading 2
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.5914036, g: 0.8396226, b: 0.4712976, a: 1}
     - Key: Subheading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.7895855, g: 0.8962264, b: 0.58762014, a: 1}
     - Key: Body 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.93866426, g: 0.9622642, b: 0.87602353, a: 1}
     - Key: Accent 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 1, g: 0.7468207, b: 0.0990566, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,10 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _activeIndex: 3
   Palettes:
-  - {fileID: -3435161458440983406}
-  - {fileID: 4407183083788870682}
-  - {fileID: 4539175080203538775}
   - {fileID: 8031941178716292779}
+  - {fileID: -3435161458440983406}
+  - {fileID: 4539175080203538775}
+  - {fileID: 4407183083788870682}
   ColorNames:
   - Main Color
   - Secondary Color
@@ -74,21 +74,21 @@ MonoBehaviour:
   Colors:
     Entries:
     - Key: Main Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.5377358, g: 0.22574759, b: 0.22574759, a: 1}
     - Key: Secondary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.6792453, g: 0.18903525, b: 0.18903525, a: 1}
     - Key: Tertiary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.5283019, g: 0.072267726, b: 0.10446658, a: 1}
     - Key: Heading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.9150943, g: 0.7812834, b: 0.7812834, a: 1}
     - Key: Heading 2
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
     - Key: Subheading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 1, g: 0.5841211, b: 0.4481132, a: 1}
     - Key: Body 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.9433962, g: 0.85884655, b: 0.85884655, a: 1}
     - Key: Accent 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 1, g: 0.7541246, b: 0.051886797, a: 1}
 --- !u!114 &4539175080203538775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,19 +107,19 @@ MonoBehaviour:
     - Key: Main Color
       Value: {r: 1, g: 1, b: 1, a: 1}
     - Key: Secondary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
     - Key: Tertiary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
     - Key: Heading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
     - Key: Heading 2
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
     - Key: Subheading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
     - Key: Body 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
     - Key: Accent 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.20425417, g: 0.5140945, b: 0.8490566, a: 1}
 --- !u!114 &8031941178716292779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,18 +136,18 @@ MonoBehaviour:
   Colors:
     Entries:
     - Key: Main Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
     - Key: Secondary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
     - Key: Tertiary Color
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     - Key: Heading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
     - Key: Heading 2
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
     - Key: Subheading 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
     - Key: Body 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
     - Key: Accent 1
-      Value: {r: 1, g: 1, b: 1, a: 1}
+      Value: {r: 0.6792453, g: 0.24670699, b: 0.24670699, a: 1}
