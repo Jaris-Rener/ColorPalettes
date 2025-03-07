@@ -14,13 +14,14 @@
         public List<ColorPalette> Palettes = new();
         public List<string> ColorNames = new();
 
+
+#if UNITY_EDITOR
         private void Awake()
         {
             if (Palettes.Count <= 0)
                 CreatePalette();
         }
 
-#if UNITY_EDITOR
         private void OnValidate()
         {
             var assets = AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(this));
