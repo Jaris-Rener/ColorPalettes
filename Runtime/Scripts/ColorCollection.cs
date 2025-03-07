@@ -20,6 +20,7 @@
                 CreatePalette();
         }
 
+#if UNITY_EDITOR
         private void OnValidate()
         {
             var assets = AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(this));
@@ -29,7 +30,6 @@
                 CreatePalette();
         }
 
-#if UNITY_EDITOR
         [ContextMenu("New Color Palette")]
         public ColorPalette CreatePalette()
         {
@@ -59,7 +59,7 @@
             if (iteration >= 100)
                 return Guid.NewGuid().ToString();
 
-            return GetNextName(candidateName, iteration+1);
+            return GetNextName(candidateName, iteration + 1);
         }
 #endif
         public Color GetColor(string key)
@@ -87,8 +87,10 @@
                     continue;
 
                 obj.UpdateColors();
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(obj);
                 EditorUtility.SetDirty(obj.UntypedTarget);
+#endif
             }
         }
     }

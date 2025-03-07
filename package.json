@@ -1,6 +1,6 @@
 {
     "name": "com.howl.colorpalettes",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Color Palettes",
     "description": "A simple package for authoring and managing color palettes. Allowing you to quickly switch the theme of bound graphics.",
     "unity": "2023.2",
